@@ -13,9 +13,9 @@ IHtmaWxlfSAtcCAkaSAyPi9kZXYvbnVsbCAmJiBlY2hvIC1lICIgXDAzM1s5Mm0gUGFzc3dvcmQ6
 ICRpIiAmJiBicmVhazsgZG9uZScnJykKZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0IGFzIGs6CiAg
 IHByaW50ICgnXDAzM1s5Nm0gU3RvcHBlZCEnKQogICBzeXMuZXhpdCgpCgo="""
 
-print (base)
+#print (base)
 
-#try:
- #   exec (base64.b64decode(base))
-#except IndexError as i:
- #   print ('\033[91m Syntax: python StegCrack.py <File> <Wordlist_to_Crack>')
+try:
+    exec (base64.b64decode(base))
+except IndexError as i:
+    print ('\033[91m Syntax: python StegCrack.py <File> <Wordlist_to_Crack>')
